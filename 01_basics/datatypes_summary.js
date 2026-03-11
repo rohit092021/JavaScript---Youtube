@@ -39,3 +39,26 @@ console.log(myFunction)
 // console.log(function)
 console.log(typeof bigNumber)
 console.log(typeof array)
+
+/* =====================================================================================
+Stack and heap memory
+stack memory copy crete krta h, heap memory Reference(original value)
+Primitive data types me stack memory used hoti h
+Non-primitive me heap memory use hoti h */
+
+let myName = "Rohit"
+let myFullname = myName
+myFullname = "Rohit tarkar"
+
+console.log(myName)
+console.log(myFullname)
+
+let user = {
+    email:"abc@gmail.com",
+    upi:"user@ptsbi",
+    phone: 876543210
+}
+let user2 = user;
+user2.phone = 9999999
+console.log(user)
+console.log(user2)
