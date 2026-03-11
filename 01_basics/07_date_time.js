@@ -19,3 +19,10 @@ console.log(myCreatedDate.toDateString());
 
 let myCreatedDate_1 = new Date(2004,3, 31,4,5)
 console.log(myCreatedDate.toLocaleString());
+
+let myTimeStamp = Date.now()
+console.log(myTimeStamp)
+
+let newDate = new Date()
+console.log(newDate)
+console.log(newDate.getFullYear())
