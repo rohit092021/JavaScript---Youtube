@@ -13,7 +13,7 @@ console.log(arr1.includes(9)) //check value occours in array or not.
 console.log(arr1.indexOf(3))
 
 //slice, splice
-let arr4 ="qwerty"
+let arr4 =['a','b','c','d','e']
 console.log(arr4.slice(1,3))
 console.log(arr4.splice(1,3))
 
